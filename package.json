@@ -15,7 +15,7 @@
   "homepage": "https://github.com/magicdidac/react-chord-display#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/magicdidac/react-chord-display"
+    "url": "https://github.com/magicdidac/react-chord-display.git"
   },
   "scripts": {
     "build": "npx tsc"
