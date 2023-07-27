@@ -1,7 +1,7 @@
 import { Chords } from "./constants"
 import { ChordDisplay } from "./Components/ChordDisplay"
 
-export default {
+export {
     Chords,
     ChordDisplay
 }
