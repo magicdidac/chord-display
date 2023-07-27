@@ -1,6 +1,6 @@
 {
   "name": "react-chord-display",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "description": "Package to display guitar chords on react",
   "keywords": [
@@ -18,7 +18,7 @@
     "url": "https://github.com/magicdidac/react-chord-display.git"
   },
   "scripts": {
-    "build": "npx tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^20.4.5",

@@ -5,7 +5,7 @@ import { Neck } from "./Neck"
 import { Chords } from "../constants"
 import { getStringPosition, strokeColor } from "../utils"
 
-interface IChordDisplayProps {
+export interface IChordDisplayProps {
     chord: Chord
 }
 
