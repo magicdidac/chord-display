@@ -2,14 +2,13 @@ import { Chord } from "../types/types"
 import { Barre } from "./Barre"
 import { Dot } from "./Dot"
 import { Neck } from "./Neck"
-import { Chords } from "../constants"
 import { getStringPosition, strokeColor } from "../utils"
 
 export interface IChordDisplayProps {
     chord: Chord
 }
 
-const ChordDisplay = (props: IChordDisplayProps) => {
+export const ChordDisplay = (props: IChordDisplayProps) => {
     const { chord } = props
 
     const onlyDots = chord.frets
@@ -54,5 +53,3 @@ const ChordDisplay = (props: IChordDisplayProps) => {
         </svg>
     )
 }
-
-export { Chords, ChordDisplay }
