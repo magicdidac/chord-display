@@ -5,11 +5,13 @@ import { Neck } from "./Neck"
 import { getStringPosition, strokeColor } from "../utils"
 
 export interface IChordDisplayProps {
-    chord: Chord
+    chord?: Chord
 }
 
 export const ChordDisplay = (props: IChordDisplayProps) => {
     const { chord } = props
+
+    if (!chord) return <></>
 
     const onlyDots = chord.frets
         .map((f, index) => ({ position: index, value: f }))
