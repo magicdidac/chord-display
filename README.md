@@ -18,7 +18,7 @@ yarn add react-chord-display
 
 Here are some examples of what the chords would look like.
 
-[chords-screenshot]
+![chords-screenshot]
 
 
 ## How to use it
