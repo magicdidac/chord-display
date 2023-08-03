@@ -30,9 +30,7 @@ export const ChordDisplay = (props: IChordDisplayProps) => {
                     barre={chord.barre}
                 />
                 {chord.barre &&
-                    <Barre
-                        frets={chord.frets}
-                    />
+                    <Barre />
                 }
                 {onlyDots.map(fret => (
                     <Dot
