@@ -3,7 +3,7 @@ import { D, Dm } from './D'
 import { E, Em, E7 } from './E'
 import { F, Fm, Fsharpm } from './F'
 import { G, Gm, G7 } from './G'
-import { A, Am } from './A'
+import { A, Am, Am9 } from './A'
 import { B, Bm } from './B'
 
 export default {
@@ -12,6 +12,6 @@ export default {
   E, Em, E7,
   F, Fm, Fsharpm,
   G, Gm, G7,
-  A, Am,
+  A, Am, Am9,
   B, Bm,
 }
