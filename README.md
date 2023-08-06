@@ -67,11 +67,6 @@ If you need to make a capo the chord would look like this:
 - the number in the `barre` property is the fret where the capo is desired
 - 0 means to play the string in the air (where the capo is located)
 
-
 *Note*: it is recommended to use the `Chord` interface included in the package if you use typescript
-
-## List of preset chords
-
-`{ C,Cm,C#m, D,Dm, E,Em,E7, F,Fm,F#m, G,Gm,G7, A,Am, B,Bm }`
 
 [chords-screenshot]: images/chords.png
