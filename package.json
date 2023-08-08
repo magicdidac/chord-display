@@ -1,6 +1,6 @@
 {
   "name": "@magicdidac/chord-display",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "dist/index.js",
   "description": "Package to display guitar chords on react",
   "keywords": [

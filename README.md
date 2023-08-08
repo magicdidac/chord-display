@@ -1,4 +1,4 @@
-# react-chord-display
+# @magicdidac/chord-display
 
 A React library to easily generate guitar SVG chords display.
 
@@ -6,12 +6,12 @@ A React library to easily generate guitar SVG chords display.
 
 With npm
 ```sh
-npm i react-chord-display
+npm i @magicdidac/chord-display
 ```
 
 With yarn
 ```sh
-yarn add react-chord-display
+yarn add @magicdidac/chord-display
 ```
 
 ## Examples
@@ -24,7 +24,7 @@ Here are some examples of what the chords would look like.
 ## How to use it
 
 ```js
-import { ChordDisplay, getChordByName } from 'react-chord-display'
+import { ChordDisplay, getChordByName } from '@magicdidac/chord-display'
 
 const MyChord = () => {
 
