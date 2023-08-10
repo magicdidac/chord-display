@@ -1,7 +1,7 @@
 {
   "name": "@magicdidac/chord-display",
-  "version": "1.1.1",
-  "main": "dist/index.js",
+  "version": "1.1.2",
+  "main": "index.js",
   "description": "Package to display guitar chords on react",
   "keywords": [
     "react",
@@ -12,21 +12,20 @@
   ],
   "license": "MIT",
   "author": "magicdidac",
-  "homepage": "https://github.com/magicdidac/react-chord-display#readme",
+  "homepage": "https://github.com/magicdidac/chord-display#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/magicdidac/react-chord-display.git"
+    "url": "https://github.com/magicdidac/chord-display.git"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && cp package.json ./dist"
   },
   "devDependencies": {
+    "@types/react": "^18.2.19",
     "@types/node": "^20.4.8",
+    "react": "^18.2.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
   },
-  "dependencies": {
-    "@types/react": "^18.2.19",
-    "react": "^18.2.0"
-  }
+  "dependencies": {}
 }
